@@ -1,21 +1,16 @@
-{"previous_hash":[
-    12345678,
-    22345678,
-    32345678,
-    42345678,
-    52345678,
-    62345678,
-    72345678,
-    82345678
-    ],
-"update_utc_time" : "YYYY-MM-DDThh:mm:ssTZD",
-"committee":[
-    "james_wang" ,
-    "Pi",
-    "vincent"
-],
-"rbas_system_specification" : {},
-"root_servers" :[
-    
-]
+{
+	"previous_hash": [
+		12345678,
+		22345678,
+		32345678,
+		42345678,
+		52345678,
+		62345678,
+		72345678,
+		82345678
+	],
+	"update_utc_time": "YYYY-MM-DDThh:mm:ssTZD",
+	"committee": ["james_wang", "Pi", "vincent"],
+	"rbas_system_specification": {},
+	"root_servers": []
 }
