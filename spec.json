@@ -16,7 +16,16 @@
 			"db.js",
 			"rs_dash_board.js"
 		],
-		"api_json": ["rs_sync", "rs_gs", "gs_ts", "ts_db", "rs_db", "qs_db"],
+		"api_json": [
+			"rs_rs_sync",
+			"rs_gs_sync",
+			"gs_ts_sync",
+			"ts_gs_hash",
+			"ts_db_hash",
+			"gs_rs_hash",
+			"rs_db_keys",
+			"qs_db"
+		],
 		"system_admin_json": ["rs_list", "gs_list", "qs_list", "db_list"],
 		"system_tester": ["hash_simulator", "ts_app", "qs_app"]
 	},
