@@ -1,33 +1,7 @@
 {
-	"previous_hash_4_hex": [
-		"1234567890abcdef",
-		"2234567890abcdef",
-		"3234567890abcdef",
-		"4234567890abcdef"
-	],
-	"update_utc_time_second": "YYYY-MM-DDThh:mm:ssTZD",
-	"committee_members": ["james_wang", "Pi", "vincent"],
-	"rbas_system_specification": {
-		"servers_software": [
-			"rs.js",
-			"gs.js",
-			"ts.js",
-			"qs.js",
-			"db.js",
-			"rs_dash_board.js"
-		],
-		"api_json": [
-			"rs_rs_sync",
-			"rs_gs_sync",
-			"gs_ts_sync",
-			"ts_gs_hash",
-			"ts_db_hash",
-			"gs_rs_hash",
-			"rs_db_keys",
-			"qs_db"
-		],
-		"system_admin_json": ["rs_list", "gs_list", "qs_list", "db_list"],
-		"system_tester": ["hash_simulator", "ts_app", "qs_app"]
-	},
-	"root_servers": ["rs0", "rs1", "rs2"]
+	"previous_hash": "0",
+	"時間_time": "202001291424",
+	"宗旨_object": "建立公開的_多快好省_區塊鏈認証服務平台",
+	"常任成員_executives": ["王知康", "皮人杰", "劉文建", "張玉成"],
+	"章程_charter": "由常任成員開會，多數通過決定"
 }
