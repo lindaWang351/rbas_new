@@ -26,4 +26,4 @@ date: 2020-01-29
 
 ## 4. 系統結構
 
-![](rbas_spec_layout.PNG)
+![46c5d42f4bc32552c63baafbbb5eed688e98bd10a16b758db8144f9b5f31245e](rbas_spec_layout.PNG)
