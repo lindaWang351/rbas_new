@@ -19,9 +19,34 @@
 		}},
 		{"RS-1":{
 			"name": "ASTRI",
-			"IP": null
+			"IP": null,
+			"manager":null
 			}
 		}
-		]
+		],
+	"API":[
+		{"a=RS sync" : [
+			{"new_hash_sync_out":{
+				"pre link hash": "hash",
+				"new_PS_hash":[
+				{"PS nnnn":"hash"},
+				{"PS nnnn":"hash"}
+				]
+				},
+				{
+					
+				}
+
+
+			] 
+		},
+		{"b": " "},
+		{"c":" "},
+		{"d":" "},
+		{"e":" "},
+		{"f":" "},
+		{"g":" "},
+		{"h":" "}		 
+	]
 	}
 
