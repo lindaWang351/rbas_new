@@ -2,6 +2,7 @@
 	"pre_hash": null,
 	"RS_add_hash": [
 		{ "ts": "ts-name", "t-hash": "t-h" },
-		{ "ts": "ts-name", "t-hash": "t-h" }
+		{ "ts": "ts-name", "t-hash": "t-h" },
+		{"more":null}
 	]
 }
