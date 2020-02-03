@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"a=RS sync": [
 		{
 			"new_cycle_toPS-TS": {
@@ -8,4 +9,14 @@
 			}
 		}
 	]
+=======
+  "a=RS sync": [
+    {
+      "new_cycle_toPS-TS": {
+        "pre link hash": "hash",
+        "cycle": null
+      }
+    }
+  ]
+>>>>>>> c95a2d9591f375b288e74542e6d3f80d1be8502f
 }

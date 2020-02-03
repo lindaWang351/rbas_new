@@ -1,8 +1,18 @@
 {
+<<<<<<< HEAD
 	"pre_hash": null,
 	"RS_add_hash": [
 		{ "ts": "ts-name", "t-hash": "t-h" },
 
 		{ "ts": "ts-name", "t-hash": "t-h" }
 	]
+=======
+  "pre_hash": null,
+  "RS_add_hash": [
+    { "ts": "ts-name", "t-hash": "t-h" },
+    { "ts": "ts-name", "t-hash": "t-h" },
+    { "save": null },
+    { "more": null }
+  ]
+>>>>>>> c95a2d9591f375b288e74542e6d3f80d1be8502f
 }
