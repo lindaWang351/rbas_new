@@ -26,14 +26,32 @@
 		{
 			"a=RS sync": [
 				{
-					"new_hash_sync_out": {
+					"new_cycle_toPS-TS": {
 						"pre link hash": "hash",
-						"new_PS_hash": [{ "PS nnnn": "hash" }, { "PS nnnn": "hash" }]
+						"cycle": 123
 					}
+				},
+
+				{
+					"QS_add_hash": [
+						{ "ts": "ts-name", "t-hash": "t-h" },
+						{ "ts": "ts-name", "t-hash": "t-h" }
+					]
 				}
 			]
 		},
-		{ "b": " " },
+		{
+			"b=GS_add_hash": {
+				"pre link hash": "hash",
+				"cycle": 123,
+				"new_T_h": [
+					{ "PS nnnn": "hash" },
+					{ "PS nnnn": "hash" },
+					{ "PS nnnn": "hash" },
+					{ "PS nnnn": "hash" }
+				]
+			}
+		},
 		{ "c": " " },
 		{ "d": " " },
 		{ "e": " " },
