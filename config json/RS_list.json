@@ -1,0 +1,33 @@
+{
+	"根服務器": [
+		{
+			"RS-0": {
+				"name": "BUPT",
+				"IP": null,
+				"manager": {
+					"name": null,
+					"phone": null,
+					"email": null
+				},
+				"PS_IP_list": ["ip_address_ps0", "ip_address_ps1"],
+				"QS_IP": "ip_address_qs",
+				"DB_time": "ip_address_db_t"
+			}
+		},
+		{
+			"RS-1": {
+				"name": "ASTRI",
+				"IP": null,
+				"manager": null
+			}
+		},
+		{ "RS-2": null },
+		{ "RS-2": null },
+		{ "RS-2": null },
+		{ "RS-2": null },
+		{ "RS-2": null },
+		{ "RS-2": null },
+		{ "RS-2": null },
+		{ "RS-2": null }
+	]
+}
