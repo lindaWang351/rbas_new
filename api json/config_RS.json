@@ -1,0 +1,53 @@
+[
+	{
+		"RS_id": {
+			"name": "name",
+			"IP": "iii.iii.iii.iii",
+			"port": "pppp",
+			"geo": {
+				"latitude": "ll.llll",
+				"longitude": "ll.llll"
+			},
+			"manager": [
+				{
+					"operator": {
+						"name": "nnnn",
+						"mobile": "mmmmmmmm",
+						"email": "eeeeeeeeee"
+					}
+				},
+				{
+					"operator": {
+						"name": "nnnn",
+						"mobile": "mmmmmmmm",
+						"email": "eeeeeeeeee"
+					}
+				}
+			]
+		}
+	},
+	{
+		"RS_id": {
+			"name": "name",
+			"IP": "iii.iii.iii.iii",
+			"port": "pppp",
+			"geo": {
+				"latitude": "ll.llll",
+				"longitude": "ll.llll"
+			},
+			"manager": [
+				{
+					"operator": {
+						"name": "nnnn",
+						"mobile": "mmmmmmmm",
+						"email": "eeeeeeeeee"
+					}
+				},
+				{
+					"operator": null
+				}
+			]
+		}
+	},
+	{ "RS_id": null }
+]
