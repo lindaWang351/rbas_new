@@ -1,24 +1,24 @@
 [
 	{
-		"api_type": "RS>all_PS",
+		"api_type": "RS>all_local_PS",
 		"prv_hash_for_each_PS": "hhhhhhhh",
 		"cycle": "nnnnnnnnnn",
 		"time": "yyyy-mm-dd,HH:MM:SS"
 	},
 	{
-		"api_type": "PS>all_TS",
+		"api_type": "PS>all_local_TS",
 		"pre_hash_for_each_TS": "hhhhhhhh",
 		"cycle": "nnnnnnnnnn",
 		"time": "yyyy-mm-dd,HH:MM:SS"
 	},
 	{
-		"api_type": "PS>all_T_DB",
+		"api_type": "PS>local_T_DB",
 		"pre_hash_for_each_TS": "hhhhhhhh",
 		"cycle": "nnnnnnnnnn",
 		"time": "yyyy-mm-dd,HH:MM:SS"
 	},
 	{
-		"api_type": "PS>all_C_DB",
+		"api_type": "PS>local_C_DB",
 		"pre_hash_for_each_TS": "hhhhhhhh",
 		"cycle": "nnnnnnnnnn",
 		"time": "yyyy-mm-dd,HH:MM:SS"
