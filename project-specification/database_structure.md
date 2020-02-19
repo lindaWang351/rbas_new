@@ -11,16 +11,17 @@ Use file structure.
 json file format of t_hash stored in the file.
 
 ```json
-[{"ts":null, "t-hash":null }...]
+[{"ts":"ts-server-ID", "t-hash":"64*hex" }...]
 ```
 
 ## 2. code domain
 
 1. /yyyy/h000-255/h000-255/h000-255
+1. the first 3 bytes of hash will used for directory name.
 1. max file size is 1000 t_hash
 1. additional levels of directory will be added when file > 1000 t_hash
 1. data in every year will be put into a new data base block
 
 ```json
-[{"t-hash":null, "time":null }...]
+[{"t-hash":"64*hex", "time":"utc" }...]
 ```
