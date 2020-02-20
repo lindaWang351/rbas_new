@@ -11,7 +11,7 @@ Use file structure.
 json file format of t_hash stored in the file.
 
 ```json
-[{"ts":"ts-server-ID", "t-hash":"64*hex" }...]
+[{"ts":"ts-server-ID", "t-hash":"32*2hex" }...]
 ```
 
 ## 2. code domain
@@ -23,5 +23,7 @@ json file format of t_hash stored in the file.
 1. data in every year will be put into a new data base block
 
 ```json
-[{"t-hash":"64*hex", "time":"utc" }...]
+[{"t-hash":"32*2hex", "time":"utc" }...]
 ```
+
+## 3. QS api
