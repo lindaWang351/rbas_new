@@ -1,0 +1,32 @@
+{
+	"PS_hash": "hhhhhhhh",
+	"TS": [
+		{
+			"TS_id": {
+				"name": "name",
+				"IP": "iii.iii.iii.iii",
+				"port": "pppp",
+				"geo": {
+					"latitude": "ll.llll",
+					"longitude": "ll.llll"
+				},
+				"manager": [
+					{
+						"operator": {
+							"name": "nnnn",
+							"mobile": "mmmmmmmm",
+							"email": "eeeeeeeeee"
+						}
+					},
+					{
+						"operator": {
+							"name": "nnnn",
+							"mobile": "mmmmmmmm",
+							"email": "eeeeeeeeee"
+						}
+					}
+				]
+			}
+		}
+	]
+}
