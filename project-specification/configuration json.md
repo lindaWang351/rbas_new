@@ -1,6 +1,146 @@
-# Transaction Server api
+# RS Server api
 
-### TS register
+```json
+[
+	{
+		"RS_id": {
+			"name": "name",
+			"IP": "iii.iii.iii.iii",
+			"port": "pppp",
+			"geo": {
+				"latitude": "ll.llll",
+				"longitude": "ll.llll"
+			},
+			"manager": [
+				{
+					"operator": {
+						"name": "nnnn",
+						"mobile": "mmmmmmmm",
+						"email": "eeeeeeeeee"
+					}
+				},
+				{
+					"operator": {
+						"name": "nnnn",
+						"mobile": "mmmmmmmm",
+						"email": "eeeeeeeeee"
+					}
+				}
+			]
+		}
+	},
+	{
+		"RS_id": {
+			"name": "name",
+			"IP": "iii.iii.iii.iii",
+			"port": "pppp",
+			"geo": {
+				"latitude": "ll.llll",
+				"longitude": "ll.llll"
+			},
+			"manager": [
+				{
+					"operator": {
+						"name": "nnnn",
+						"mobile": "mmmmmmmm",
+						"email": "eeeeeeeeee"
+					}
+				},
+				{
+					"operator": null
+				}
+			]
+		}
+	},
+	{ "RS_id": null }
+]
+```
+
+# PS register
+
+```json
+{
+	"RS_hash": "hhhhhhhh",
+	"DB": {
+		"T_DB_ip": "iii.iii.iii.iii",
+		"C_DB_ip": "iii.iii.iii.iii"
+	},
+
+	"PS": [
+		{
+			"PS_id": {
+				"name": "name",
+				"IP": "iii.iii.iii.iii",
+				"port": "pppp",
+				"geo": {
+					"latitude": "ll.llll",
+					"longitude": "ll.llll"
+				},
+				"manager": [
+					{
+						"operator": {
+							"name": "nnnn",
+							"mobile": "mmmmmmmm",
+							"email": "eeeeeeeeee"
+						}
+					},
+					{
+						"operator": {
+							"name": "nnnn",
+							"mobile": "mmmmmmmm",
+							"email": "eeeeeeeeee"
+						}
+					}
+				]
+			}
+		}
+	],
+	"QS": [
+		{
+			"QS_id": {
+				"name": "name",
+				"IP": "iii.iii.iii.iii",
+				"port": "pppp"
+			}
+		}
+	]
+}
+```
+
+
+{
+	"PS_hash": "hhhhhhhh",
+	"TS": [
+		{
+			"TS_id": {
+				"name": "name",
+				"IP": "iii.iii.iii.iii",
+				"port": "pppp",
+				"geo": {
+					"latitude": "ll.llll",
+					"longitude": "ll.llll"
+				},
+				"manager": [
+					{
+						"operator": {
+							"name": "nnnn",
+							"mobile": "mmmmmmmm",
+							"email": "eeeeeeeeee"
+						}
+					},
+					{
+						"operator": {
+							"name": "nnnn",
+							"mobile": "mmmmmmmm",
+							"email": "eeeeeeeeee"
+						}
+					}
+				]
+			}
+		}
+	]
+}
+
 
 ```json
 {
@@ -56,19 +196,3 @@
     }
 ```
 
-### TS upload t_hash
-
-```json
-{
-    "api_type": "TS>PS",
-    "cycle": "nnnnnnnnnn",
-    "T_hash": "hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh"
-    }
-
-{
-    "api_type": "next PS>all_local_TS",
-    "pre_hash_for_each_TS": "hhhhhhhh",
-    "cycle": "nnnnnnnnnn",
-    "time": "yyyy-mm-dd,HH:MM:SS"
-    }
-```
