@@ -1,0 +1,95 @@
+```json
+[
+	{
+		"api_type": "RS>all_local_PS",
+		"prv_hash_for_each_PS": "hhhhhhhh",
+		"cycle": "nnnnnnnnnn",
+		"time": "yyyy-mm-dd,HH:MM:SS"
+	},
+	{
+		"api_type": "PS>all_local_TS",
+		"pre_hash_for_each_TS": "hhhhhhhh",
+		"cycle": "nnnnnnnnnn",
+		"time": "yyyy-mm-dd,HH:MM:SS"
+	},
+	{
+		"api_type": "PS>local_T_DB",
+		"pre_hash_for_each_TS": "hhhhhhhh",
+		"cycle": "nnnnnnnnnn",
+		"time": "yyyy-mm-dd,HH:MM:SS"
+	},
+	{
+		"api_type": "PS>local_C_DB",
+		"pre_hash_for_each_TS": "hhhhhhhh",
+		"cycle": "nnnnnnnnnn",
+		"time": "yyyy-mm-dd,HH:MM:SS"
+	},
+	{
+		"api_type": "TS>PS",
+		"cycle": "nnnnnnnnnn",
+		"T_hash": "hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh"
+	},
+	{
+		"api_type": "PS>all_T_DB",
+		"cycle": "nnnnnnnnnn",
+		"RS_PS_ID": "RSid_PSid",
+		"add T_hash": [
+			"hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh",
+			"hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh"
+		]
+	},
+	{
+		"api_type": "PS>all_C_DB",
+		"cycle": "nnnnnnnnnn",
+		"RS_PS_ID": "RSid_PSid",
+		"add T_hash": [
+			"hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh",
+			"hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh"
+		]
+	},
+	{
+		"api_type": "T_DB>all_RS",
+		"cycle": "nnnnnnnnnn",
+		"T_hash_this_cycle_local_RS": "nnnnnnnnnn",
+		"total-T_hash": "nnnnnnnnnnnn",
+		"T_DB-hash": "hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh"
+	},
+	{
+		"api_type": "C_DB>all_RS",
+		"cycle": "nnnnnnnnnn",
+		"T_hash_this_cycle_local_RS": "nnnnnnnnnn",
+		"total-T_hash": "nnnnnnnnnnnn",
+		"query_this_cycle": "nnnnnn",
+		"fault_query_this_cycle": "nnnnnn",
+		"C_DB-hash": "hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh"
+	},
+	{
+		"api_type": "QS>C_DB",
+		"RS_QS_ID": "RSid_QSid",
+		"?hash": "hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh"
+	},
+	{
+		"api_type": "C_DB>QS",
+		"valid": true,
+		"cycle": "nnnnnnnnnn",
+		"time": "yyyy-mm-dd,HH:MM:SS",
+		"RS_PS_ID": "RSid_PSid"
+	},
+	{
+		"api_type": "RS>all_dashboard",
+		"cycle": "nnnnnnnnnn",
+		"time": "yyyy-mm-dd,HH:MM:SS",
+		"RS_info": [
+			{ "name": "nnnnnn" },
+			{ "geo_Long": "nn.nn" },
+			{ "geo_lad": "nn.nn" }
+		],
+		"T_hash_this_cycle_local_RS": "nnnnnnnnnn",
+		"total-T_hash": "nnnnnnnnnnnn",
+		"T_DB-hash": "hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh",
+		"query_this_cycle": "nnnnnn",
+		"fault_query_this_cycle": "nnnnnn",
+		"C_DB-hash": "hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh.hhhhhhhh"
+	}
+]
+```
