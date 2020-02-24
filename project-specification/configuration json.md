@@ -1,8 +1,4 @@
-# RBAS 系統結構
-
-![a4035baf](pictures/rbas_spec_layout.PNG)
-
-## Transaction Server api
+# Transaction Server api
 
 ### TS register
 
@@ -20,16 +16,16 @@
                 "longitude": "ll.llll"},
                 "manager": [
                     {
-                        "operator": {
+                        "operator-1": {
                             "name": "nnnn",
-                            "mobile": "mmmmmmmm",
-                            "email": "eeeeeeeeee"}
+                            "mobile-1": "mmmmmmmm",
+                            "email-1": "eeeeeeeeee"}
                         },
                     {
-                        "operator": {
+                        "operator-2": {
                             "name": "nnnn",
-                            "mobile": "mmmmmmmm",
-                            "email": "eeeeeeeeee"}
+                            "mobile-1": "mmmmmmmm",
+                            "email-1": "eeeeeeeeee"}
                         }
                     ]
                 }
