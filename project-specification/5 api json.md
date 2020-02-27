@@ -62,8 +62,7 @@
 		"api_type": "DB_C>QS",
 		"valid": true,
 		"cycle": "nnnnnnnnnn",
-		"time": "yyyy-mm-dd,HH:MM:SS",
-		"RS_PS_ID": "RSid_PSid"
+		"time": "yyyy-mm-dd,HH:MM:SS"
 	},
 	{
 		"api_type": "RS>all_dashboard",
